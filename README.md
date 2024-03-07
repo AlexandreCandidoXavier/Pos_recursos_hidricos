@@ -38,11 +38,11 @@ instalado, abrir o programa *Anaconda Prompt (miniconda3)*, e executar:
    ```
    
    ```
-   mamba install geemap -c conda-forge`
+   mamba install geemap -c conda-forge
    ```
    
    ```
-   mamba install geopandas localtileserver -c conda-forge`
+   mamba install geopandas localtileserver -c conda-forge
    ```
 
 ## Abrindo Jupyter notebook
@@ -52,18 +52,17 @@ Os códigos acima criam a ambiente de trabalho denominado
 Uma vez instalado o ambiente, para abrir o **Jupyter-lab**, vá
 no  *Anaconda Prompt (miniconda3)*  e escreve:
 
-`jupyter-lab`
+```
+jupyter-lab
+```
 
 Caso tenha fechado o *Anaconda Prompt (miniconda3)*. Abra-o
 novamente e escreva no seu Prompt:
 
-```conda activate gee```
-
-```jupyter-lab```
-
- Esta é uma linha que contém um `código`.
+```
+conda activate gee
+```
 
 ```
-Esta é uma linha de código
-
+jupyter-lab
 ```
