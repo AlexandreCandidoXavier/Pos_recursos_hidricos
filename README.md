@@ -11,23 +11,39 @@ instalado, abrir o programa *Anaconda Prompt (miniconda3)*, e executar:
 
 1. Primeira opção:
 
-   `conda create -n gee`
+   ```
+   conda create -n gee
+   ```
 
-   `conda activate gee`
-
-   `conda install geemap geopandas -c conda-forge`
+   ```
+   conda activate gee
+   ```
+   
+   ```
+   conda install geemap geopandas -c conda-forge
+   ```
 
 2. Segunda opção
 
-   `conda create -n gee python=3.10`
-
-   `conda activate gee`
-
-   `conda install -n base mamba -c conda-forge`
-
-   `mamba install geemap -c conda-forge`
-
-   `mamba install geopandas localtileserver -c conda-forge`
+   ```
+   conda create -n gee python=3.10
+   ```
+   
+   ```
+   conda activate gee
+   ```
+   
+   ```
+   conda install -n base mamba -c conda-forge
+   ```
+   
+   ```
+   mamba install geemap -c conda-forge`
+   ```
+   
+   ```
+   mamba install geopandas localtileserver -c conda-forge`
+   ```
 
 ## Abrindo Jupyter notebook
 
@@ -41,21 +57,13 @@ no  *Anaconda Prompt (miniconda3)*  e escreve:
 Caso tenha fechado o *Anaconda Prompt (miniconda3)*. Abra-o
 novamente e escreva no seu Prompt:
 
-`conda activate gee`
+```conda activate gee```
 
-`jupyter-lab`
+```jupyter-lab```
 
-~~~javascript
-Esta é uma linha de código em Javascript.
-~~~
+ Esta é uma linha que contém um `código`.
 
-~~~php
-Esta é uma linha de código em PHP.
-~~~
+```
+Esta é uma linha de código
 
-~~~html
-Esta é uma linha de código em HTML.
-~~~
-
-
-
+```
