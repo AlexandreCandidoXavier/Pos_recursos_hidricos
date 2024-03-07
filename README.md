@@ -1,6 +1,6 @@
 # Mineração de dados hidrológicos para a agricultura
 
-Material da disciplina Mineração de dados hidrológicos para a agricultura
+Material da disciplina _Mineração de dados hidrológicos para a agricultura_
 da Pós-Graduação em Recursos Hídricos da UFES (Lato Sensu).
 
 ## Instalação do ambiente de trabalho
@@ -23,7 +23,7 @@ instalado, abrir o programa *Anaconda Prompt (miniconda3)*, e executar:
    conda install geemap geopandas -c conda-forge
    ```
 
-2. Segunda opção
+2. Segunda opção:
 
    ```
    conda create -n gee python=3.10
@@ -50,14 +50,13 @@ instalado, abrir o programa *Anaconda Prompt (miniconda3)*, e executar:
 Os códigos acima criam a ambiente de trabalho denominado 
 *gee*, com as bibliotecas necessárias instaladas.
 Uma vez instalado o ambiente, para abrir o **Jupyter-lab**, vá
-no  *Anaconda Prompt (miniconda3)*  e escreve:
+no  *Anaconda Prompt (miniconda3)* e execute:
 
 ```
 jupyter-lab
 ```
 
-Caso tenha fechado o *Anaconda Prompt (miniconda3)*. Abra-o
-novamente e escreva no seu Prompt:
+Caso tenha fechado o *Anaconda Prompt (miniconda3)*. Abra-o e:
 
 ```
 conda activate gee
@@ -66,3 +65,5 @@ conda activate gee
 ```
 jupyter-lab
 ```
+
+I need to highlight these ==very important words==.
